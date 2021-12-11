@@ -47,8 +47,8 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 ## Questions
-GitHub Profile Page:(https://github.com/${data.username}.
-  Any other question contact:${data.email}
+- GitHub Profile Page:(https://github.com/${data.username}).
+- Any other question contact:${data.email}
 `;
 }
 
