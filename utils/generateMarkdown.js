@@ -8,7 +8,7 @@ function renderLicenseLink(license) {
   if(license === 'None'){
     return ''
   }else{
-    return '[License](#license) '
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   }
 }
 
@@ -27,27 +27,28 @@ ${license} `
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-## Table of Contents  
-[Decription](#decription)  
-[Installation](#installation) 
-[Usage](#usage) 
+## License
 ${renderLicenseLink(data.license)}  
-[Contributing](#contributing)  
-[Tests](#tests)   
-[Questions](#questions) 
+## Table of Contents  
+- [Decription](#decription)  
+- [Installation](#installation)
+- [Usage](#usage) 
+- [Contributing](#contributing)  
+- [Tests](#tests)   
+- [Questions](#questions) 
 ## Decription
 ${data.decription}
 ## Installation
 ${data.installation}
 ## Usage
 ${data.usage}
-${renderLicenseSection(data.license)}
 ## Contributing
 ${data.contributing}
 ## Tests
 ${data.tests}
 ## Questions
-${data.questions}
+GitHub Profile Page:(https://github.com/${data.username}.
+  Any other question contact:${data.email}
 `;
 }
 
