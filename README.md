@@ -1,4 +1,4 @@
-# Readme_Generator
+# E-Commerce-Back-End
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 ## Table of Contents  
@@ -9,16 +9,15 @@
 - [Tests](#tests)   
 - [Questions](#questions) 
 ## Decription
-This application allows you to create Readme.md for your project.
+Mysql data and application that was buid from help of back end for e-commerce. This application builds working express.js API.
 ## Installation
-With the help of node, inquirer, and npm.
+npm i, mysql -u root -p, source db/schema.sql, node seeds, and node index.js
 ## Usage
-When you done with all your code, and npm i, run it with "node index.js" into your terminal and finish all the question and it will create readme file. Watch the demo here.
-https://watch.screencastify.com/v/7SmVViT81gfdWWJnMbxB
+When you done with all your code, and npm i, run it with "node index.js" and worked through postman. Watch demo here: https://watch.screencastify.com/v/e0AEbkA0g4XItxuV8YnB
 ## Contributing
-I did this project with  the help of my tutor Andrew Hardemon.
+I did it with theI did this project with the help of my tutor Andrew Hardemon.
 ## Tests
 Node index.js
 ## Questions
 - GitHub Profile Page:(https://github.com/kingkushal11).
-- Any other question contact: Kushalcool06@gamil.com
+- Any other question contact: kushalcool06@gmail.com
